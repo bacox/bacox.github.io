@@ -9,7 +9,7 @@ tags: [canvas, p5.js]
 ---
 [WIP] - Using P5.js to create dynamic moving backgrounds
  
-
-
+<!-- ![Dynamic Triangles](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif) -->
+![Dynamic Triangles]({{site.baseurl}}/assets/img/mozaik.gif)
 
 
