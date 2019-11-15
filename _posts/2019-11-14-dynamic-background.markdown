@@ -13,4 +13,3 @@ tags: [canvas, p5.js]
 <!-- ![Dynamic Triangles]({{site.baseurl}}/assets/img/mozaik_looped.gif) -->
 
 <iframe scrolling="no" border="0" src="{{site.baseurl}}/assets/sketches/dynamic-triangles/index.html" width="800px" height="400px"></iframe>
-
