@@ -1,0 +1,3 @@
+[submodule "assets/sketches"]
+	path = assets/sketches
+	url = git@github.com:bacox/sketches.git
