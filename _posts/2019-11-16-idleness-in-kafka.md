@@ -182,8 +182,8 @@ such that the wishes of the company are being fulfilled, without the
 result of spending too much money on idle machines.
 
 
-[^3]: https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/
+[^1]: https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/
 
 [^2]: https://spark.apache.org/docs/latest/tuning.html
 
-[^1]: https://oss.oetiker.ch/rrdtool/doc/index.en.html
+[^3]: https://oss.oetiker.ch/rrdtool/doc/index.en.html
