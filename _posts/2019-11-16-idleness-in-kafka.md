@@ -1,5 +1,5 @@
 ---
-layout: post
+# layout: post
 title: Minimizing idleness in Spark Clusters
 date: 2019-11-18 00:30:00 +0100
 author: Bart Cox in cooperation with <a target="_blank" rel="noopener noreferrer" href="https://tomdenottelander.com/">Tom den ottelander</a>
