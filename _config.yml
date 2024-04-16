@@ -84,11 +84,11 @@ analytics:
 author:
   name             : "Bart Cox"
   avatar           : "bacox.jpg"
-  bio              : "Master student Computer Science at the TU Delft."
+  bio              : "PhD student Federated Learning at the TU Delft."
   location         : #"Location"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=vDEEj3sAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
