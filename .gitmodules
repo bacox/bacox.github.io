@@ -3,4 +3,4 @@
 	url = https://github.com/bacox/sketches.git
 [submodule "assets/tin"]
 	path = assets/tin
-	url = https://github.com/bacox/TiN.git
+	url = https://gitlab.com/bacox/TiN.git
