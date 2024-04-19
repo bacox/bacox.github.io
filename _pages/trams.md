@@ -1,7 +1,7 @@
 ---
 layout: full_splash
-title: "Trams"
-permalink: /trams
+title: "Tramlijnen in Nederland"
+permalink: /tin
 author_profile: true
 ---
 
