@@ -40,7 +40,6 @@ params:
     ShowAllPagesInArchive: false
     # MainSections: ["books","courses","papers","data"]
     MainSections: ["papers"]
-    # mainsections: ["papers","posts"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
