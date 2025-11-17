@@ -15,8 +15,8 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-        # - name: Data
-        #   url: data/
+        - name: Posts
+          url: posts/
         #   weight: 4 
         # - name: Blog
         #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
@@ -39,7 +39,7 @@ params:
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
     # MainSections: ["books","courses","papers","data"]
-    MainSections: ["papers"]
+    MainSections: ["papers", "posts"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true

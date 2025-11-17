@@ -17,9 +17,9 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- if not .IsHome  }}
+    {{/*  {{- if not .IsHome  }}  */}}
     {{- partialCached "header.html" . .Page -}}
-    {{- end }}
+    {{/*  {{- end }}  */}}
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>

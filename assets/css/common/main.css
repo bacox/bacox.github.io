@@ -28,8 +28,9 @@
     color: var(--theme);
     font-size: 13px;
     line-height: 36px;
-    background: var(--primary);
+    background: var(--link);
     border-radius: calc(36px / 2);
+    box-shadow: 0 2px 0 var(--darkcolor);
     padding: 0 16px;
 }
 
