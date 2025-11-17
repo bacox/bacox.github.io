@@ -118,3 +118,5 @@ module:
   mounts:
     - source: assets/tin
       target: static/tin
+    - source: static
+      target: static
