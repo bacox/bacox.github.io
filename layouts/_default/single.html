@@ -1,4 +1,14 @@
+{{/*  Check if page is tin = true in markdown post */}}
+{{/*  {{ if .Param.tin true }}  */}}
 {{- define "main" }}
+{{- if (.Param "tin") }}
+
+<iframe scrolling="no" border="0" src="{{ trim .Site.BaseURL " " }}tin/trams_page.html" style="position:fixed; top:0; left:0; bottom:300px; right:0; width:100%; height: calc(100% - 70px); border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+{{ else }}
+{{ end }}
+
+
+
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
