@@ -78,8 +78,8 @@ params:
     socialIcons:
         # - name: CV
         #   url: cv.pdf
-        - name: Email
-          url: mailto:b.a.cox@tudelft.nl
+        # - name: Email
+        #   url: mailto:b.a.cox@tudelft.nl
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=vDEEj3sAAAAJ
         - name: GitHub
