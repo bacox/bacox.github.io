@@ -18,7 +18,7 @@
     gap: 10px;
 }
 
-.profile .profile_inner a{
+.profile .profile_inner span a{
     box-shadow: 0 2px 0 var(--darkcolor);
 }
 
