@@ -1,0 +1,123 @@
+baseURL: "https://bacox.github.io/" 
+title: Bart Cox
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        # - name: Books
+        #   url: books/
+        #   weight: 5 
+        - name: Papers
+          url: papers/
+          weight: 2
+        # - name: Courses
+        #   url: courses/
+        #   weight: 3
+        # - name: Data
+        #   url: data/
+        #   weight: 4 
+        # - name: Blog
+        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #   weight: 6
+
+params:
+    description: "Personal website of Bart Cox."
+    author: Bart Cox
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    # MainSections: ["books","courses","papers","data"]
+    MainSections: ["papers"]
+    # mainsections: ["papers","posts"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Bart Cox
+          subtitle: "I am a PhD Student in the [Data Intensive Systems (DIS)](https://www.tudelft.nl/en/eemcs/the-faculty/departments/software-technology/data-intensive-systems) group at the TU Delft. My research focusses on Distributed Machine Learning  with a strong focus on Federated Learning, Distributed Systems, and Edge AI. I love building scalable,
+            production-ready ML frameworks and optimizing models to run eﬃciently across
+            diverse hardware environments.
+            
+            
+            **email**: bart [at] bcox.nl"
+          imageUrl: "img/bartcox-cropped.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          # buttons:
+          #   - name: Papers
+          #     url: papers/
+          #   - name: Data
+          #     url: data/
+          #   - name: Books
+          #     url: books/
+          #   - name: Courses
+          #     url: courses/
+          #   - name: Tags
+          #     url: tags/
+          #   - name: Archive
+          #     url: archive/
+          #   - name: Blog
+          #     url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
+    socialIcons:
+        # - name: CV
+        #   url: cv.pdf
+        - name: Email
+          url: mailto:b.a.cox@tudelft.nl
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=vDEEj3sAAAAJ
+        - name: GitHub
+          url: https://github.com/bacox
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
+        # - name: Twitter
+        #   url: https://x.com/pmichaillat
+        # - name: Bluesky
+        #   url: https://bsky.app/profile/pmichaillat.bsky.social
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Bart Cox"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

@@ -7,3 +7,37 @@ _site/
 *.sublime-project
 *.sublime-workspace
 .idea
+
+
+/public/
+/resources/_gen/
+
+hugo.exe
+hugo.linux
+hugo.darwin
+.DS_Store
+node_modules
+dist
+tmp
+
+# Build and Release Folders
+bin/
+bin-debug/
+bin-release/
+[Oo]bj/ # FlashDevelop obj
+[Bb]in/ # FlashDevelop bin
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Hugo
+public/
+
+# Backup Files
+.hugo_build.lock
