@@ -1,21 +1,21 @@
 ---
-title: "Paper Title (less than 70 characters)" 
-date: 2012-06-01
-url: /paper/
+title: "Dynamic Topology Optimization for Non-IID Data in Decentralized Learning" 
+date: 2025-11-06
+url: /paper/Topology-Optimization-Decentralized-Learning
 aliases: 
     - /old_url.html
-tags: ["keyword 1","keyword 2","keyword 3","keyword 4","keyword 5","keyword 6","keyword 7","keyword 8"]
-author: ["Paper Author 1", "Paper Author 2"]
-description: "Paper description for search engines (less than 155 characters)" 
-summary: "Paper summary for list page (less than 265 characters)"
-draft: true
+tags: ["Decentralized Learning", "Heterogeneous Data Distribution", "Communication Graph"]
+author: ["Bart Cox", "Antreas Ioannou", "Jérémie Decouchant"]
+description: "Morph is a topology optimization method for decentralized learning that adapts peer selection to handle non-IID data, improving accuracy, stability, and convergence." 
+summary: "Morph is a decentralized learning topology optimizer that adapts peer selection based on model dissimilarity to overcome non-IID data and static communication limits. By reshaping the graph through gossip-based discovery, it boosts robustness and performance. Experiments on CIFAR-10 and FEMNIST show Morph outperforming static and epidemic baselines, achieving higher accuracy, faster convergence, and more stable learning with fewer communication rounds."
+draft: false
 cover:
-    image: "paper_figure.png"
-    alt: "Figure title (preferably 1280x720 pixels)"
+    image: "morph.png"
+    alt: "Topology Update"
     relative: true
 editPost:
     URL: "https://doi.org/paper_doi"
-    Text: "Journal/Repository Name"
+    Text: "IEEE Big Data"
 
 ---
 
@@ -23,25 +23,25 @@ editPost:
 
 ##### Links:
 
-- [Publication](paper.pdf)
-- [Paper](appendix.pdf)
-- [Code](https://github.com/paper_repo)
+<!-- - [Publication](paper.pdf)
+- [Paper](appendix.pdf) -->
+- [Code](https://github.com/bacox/morph)
 
 ---
 
 ##### Abstract:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Decentralized learning (DL) enables a set of nodes to train a model collaboratively without central coordination, offering benefits for privacy and scalability. However, DL struggles to train a high accuracy model when the data distribution is non-independent and identically distributed (non-IID) and when the communication topology is static. To address these issues, we propose Morph, a topology optimization algorithm for DL. In Morph, nodes adaptively choose peers for model exchange based on maximum model dissimilarity. Morph maintains a fixed in-degree while dynamically reshaping the communication graph through gossip-based peer discovery and diversity-driven neighbor selection, thereby improving robustness to data heterogeneity. Experiments on CIFAR-10 and FEMNIST with up to 100 nodes show that Morph consistently outperforms static and epidemic baselines, while closely tracking the fully connected upper bound. On CIFAR-10, Morph achieves a relative improvement of 1.12× in test accuracy compared to the state-of-the-art baselines. On FEMNIST, Morph achieves an accuracy that is 1.08× higher than Epidemic Learning. Similar trends hold for 50-node deployments, where Morph narrows the gap to the fully connected upper bound within 0.5 percentage points on CIFAR-10. These results demonstrate that Morph achieves higher final accuracy, faster convergence, and more stable learning as quantified by lower inter-node variance, while requiring fewer communication rounds than baseline.
 
 ---
 
-##### Figure X:  Figure title
+##### Figure 1: Topology Upodate
 
-![](figurex.png)
+![](morph.png)
 
 ---
 
-##### Citation
+<!-- ##### Citation
 
 Author 1, Author 2. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
 
@@ -55,6 +55,6 @@ pages = {XXX--YYY},
 title = {Title},
 volume = {Volume},
 year = {Year}}
-```
+``` -->
 
 ---
