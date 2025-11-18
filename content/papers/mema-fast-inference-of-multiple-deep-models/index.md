@@ -5,7 +5,7 @@ url: /papers/mema-fast-inference-of-multiple-deep-models/
 aliases: 
     - /old_url.html
 tags: ["Performance evaluation","Degradation","Pervasive computing","Schedules","Runtime","Image edge detection"]
-author: ["Jeroen Galjaard","Bart Cox", "Amirmasoud Ghiassi", "Lydia Y. Chen","Robert Birke"]
+author: ["Jeroen Galjaard","Bart Cox", "Amirmasoud Ghiassi", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lydiaychen.com/\">Lydia Y. Chen</a>","Robert Birke"]
 description: "MemA, a memory-aware scheduling policy, improves multi-inference DNN execution on edge devices by optimizing scheduling without increasing resource requirements." 
 summary: "The paper introduces EdgeCaffe, a framework for exploring scheduling policies in multi-inference DNN jobs on resource-constrained edge devices. It proposes MemA, a memory-aware policy that improves execution time by up to 5x without additional resources, based on layer-specific memory demands."
 draft: false
@@ -16,7 +16,9 @@ cover:
 editPost:
     URL: "https://doi.org/10.1109/PerComWorkshops51409.2021.9430952"
     Text: " 2021 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)"
-
+buttons:
+    paper: https://ieeexplore.ieee.org/abstract/document/9430952/
+    code: https://github.com/bacox/edgecaffe
 ---
 
 ---

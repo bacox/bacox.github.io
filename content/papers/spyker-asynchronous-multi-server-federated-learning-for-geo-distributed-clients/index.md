@@ -5,7 +5,7 @@ url: /paper/spyker-asynchronous-multi-server-federated-learning-for-geo-distribu
 aliases: 
     - /old_url.html
 tags: ["Byzantine Learning", "Asynchronous Learning", "Resource Heterogeneity"]
-author: ["Yuncong Zuo", "Bart Cox", "Lydia Y. Chen", "Jérémie Decouchant"]
+author: ["Yuncong Zuo", "Bart Cox", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lydiaychen.com/\">Lydia Y. Chen</a>", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://sites.google.com/view/jdecouchant/accueil\">Jérémie Decouchant</a>"]
 description: "Spyker is a fully asynchronous multi-server FL system that removes server bottlenecks and idle time, keeping all nodes active and outperforming prior approaches." 
 summary: "Spyker is the first fully asynchronous multi-server FL system, eliminating server idle time and single-server bottlenecks. Clients communicate only with their nearest server, while servers also update each other asynchronously. This continuously active design improves scalability and performance across MNIST, CIFAR-10, and WikiText-2."
 draft: false
@@ -16,7 +16,9 @@ cover:
 editPost:
     URL: "https://doi.org/10.1145/3652892.3700778"
     Text: "Middleware 20245: Proceedings of the 25rd ACM/IFIP International Middleware Conference"
-
+buttons:
+    paper: https://dl.acm.org/doi/pdf/10.1145/3652892.3700778
+    code: https://github.com/bacox/Morph
 ---
 
 ---

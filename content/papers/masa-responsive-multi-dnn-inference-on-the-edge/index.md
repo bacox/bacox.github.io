@@ -13,14 +13,16 @@ cover:
 editPost:
     URL: "https://bacox.github.io"
     Text: "PerCom"
-
+buttons:
+    paper: https://ieeexplore.ieee.org/abstract/document/9439111
+    code: https://github.com/bacox/edgecaffe
 ---
 
 ---
 
 ##### Links
 
-+ [Publication](ieeexplore.ieee.org/abstract/document/9439111)
++ [Publication](https://ieeexplore.ieee.org/abstract/document/9439111)
 + [Code](https://github.com/bacox/edgecaffe)
 
 ---

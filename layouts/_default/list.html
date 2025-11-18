@@ -78,6 +78,23 @@
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
+  <div class="buttons">
+      {{/*  If .Params.Buttons exists print it */}}
+      {{- with .Params.buttons }}
+          {{- range $key, $value := . }}
+              <a class="button small" href="{{ $value | absURL }}" rel="noopener" title="{{ $key }}">
+                  <span class="button-inner">
+                      {{ $key | title }}
+                      {{- if (findRE "://" $value) }}&nbsp;
+                      {{- end }}
+                  </span>
+              </a>
+          {{- end }}
+      {{- end }}
+      
+
+
+        </div>
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}

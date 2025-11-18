@@ -16,7 +16,9 @@ cover:
 editPost:
     URL: "https://www.sciencedirect.com/science/article/pii/S1574119222000372"
     Text: "Pervasive and Mobile Computing, 2022"
-
+buttons:
+    paper: https://www.sciencedirect.com/science/article/pii/S1574119222000372
+    code: https://github.com/bacox/edgecaffe
 ---
 
 ---

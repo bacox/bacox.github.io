@@ -5,7 +5,7 @@ url: /paper/parameterizing-federated-continual-learning-for-reproducible-researc
 aliases: 
     - /old_url.html
 tags: ["Federated Continual Learning","Resource and Data Heterogeneity","Reproducible Research", "Continual Learning"]
-author: ["Bart Cox", "Jeroen Galjaard", "Aditya Shankar", "Jérémie Decouchant","Lydia Y. Chen"]
+author: ["Bart Cox", "Jeroen Galjaard", "Aditya Shankar", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://sites.google.com/view/jdecouchant/accueil\">Jérémie Decouchant</a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lydiaychen.com/\">Lydia Y. Chen</a>"]
 description: "We present a fully configurable framework for Federated Continual Learning, enabling reproducible, large-scale experiments and revealing key performance challenges." 
 summary: "We present the first fully configurable framework for Federated Continual Learning, designed to reproduce complex, evolving learning scenarios. It supports large-scale deployments via containerization and Kubernetes, enabling precise experimentation. Demonstrations on CIFAR-100 and heterogeneous task sequences show Freddie’s effectiveness and uncover persistent performance challenges in real FCL settings."
 draft: false
@@ -16,6 +16,9 @@ cover:
 editPost:
     URL: "https://doi.org/10.1007/978-3-031-74643-7_35"
     Text: "Machine Learning and Principles and Practice of Knowledge Discovery in Databases. ECML PKDD 2023"
+buttons:
+    paper: https://arxiv.org/pdf/2406.02015
+    code: https://gitlab.ewi.tudelft.nl/dmls/publications/freddie
 
 ---
 

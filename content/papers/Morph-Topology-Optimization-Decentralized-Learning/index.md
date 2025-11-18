@@ -5,7 +5,7 @@ url: /paper/Topology-Optimization-Decentralized-Learning
 aliases: 
     - /old_url.html
 tags: ["Decentralized Learning", "Heterogeneous Data Distribution", "Communication Graph"]
-author: ["Bart Cox", "Antreas Ioannou", "Jérémie Decouchant"]
+author: ["Bart Cox", "Antreas Ioannou", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://sites.google.com/view/jdecouchant/accueil\">Jérémie Decouchant</a>"]
 description: "Morph is a topology optimization method for decentralized learning that adapts peer selection to handle non-IID data, improving accuracy, stability, and convergence." 
 summary: "Morph is a decentralized learning topology optimizer that adapts peer selection based on model dissimilarity to overcome non-IID data and static communication limits. By reshaping the graph through gossip-based discovery, it boosts robustness and performance. Experiments on CIFAR-10 and FEMNIST show Morph outperforming static and epidemic baselines, achieving higher accuracy, faster convergence, and more stable learning with fewer communication rounds."
 draft: false
@@ -16,7 +16,8 @@ cover:
 editPost:
     URL: "https://doi.org/paper_doi"
     Text: "IEEE Big Data"
-
+buttons:
+    code: https://github.com/bacox/Morph
 ---
 
 ---

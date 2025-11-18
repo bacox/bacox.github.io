@@ -5,7 +5,7 @@ url: /paper/Reliable-Communication-in-Hybrid-Authentication-and-Trust-Models
 aliases: 
     - /old_url.html
 tags: ["Reliable communication", "Byzantine", "Authentication models", "Trust"]
-author: ["Rowdy Chotkan", "Bart Cox", "Vincent Rahli", "Jérémie Decouchant"]
+author: ["Rowdy Chotkan", "Bart Cox", "Vincent Rahli", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://sites.google.com/view/jdecouchant/accueil\">Jérémie Decouchant</a>"]
 description: "This work extends two classical reliable communication protocols to combine authenticated links and processes, introducing DualRC. It leverages trusted nodes (e.g., gateways) and components (e.g., Intel SGX) to improve communication reliability, with methods to validate network implementation." 
 summary: "This work extends two classical reliable communication protocols to combine authenticated links and processes, introducing DualRC. It leverages trusted nodes (e.g., gateways) and components (e.g., Intel SGX) to improve communication reliability, with methods to validate network implementation."
 draft: false
@@ -16,7 +16,8 @@ cover:
 editPost:
     URL: "https://doi.org/10.4230/LIPIcs.OPODIS.2024.25"
     Text: "28th International Conference on Principles of Distributed Systems (OPODIS 2024)."
-
+buttons:
+    paper: https://drops.dagstuhl.de/storage/00lipics/lipics-vol324-opodis2024/LIPIcs.OPODIS.2024.25/LIPIcs.OPODIS.2024.25.pdf
 ---
 
 ---

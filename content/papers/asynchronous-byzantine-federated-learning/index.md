@@ -5,7 +5,7 @@ url: /paper/asynchronous-byzantine-federated-learning
 aliases: 
     - /old_url.html
 tags: ["Byzantine Learning", "Asynchronous Learning", "Re-source Heterogeneity"]
-author: ["Bart Cox", "Abele Mălan", "Lydia Y. Chen", "Jérémie Decouchant"]
+author: ["Bart Cox", "Abele Mălan", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lydiaychen.com/\">Lydia Y. Chen</a>", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://sites.google.com/view/jdecouchant/accueil\">Jérémie Decouchant</a>"]
 description: "An asynchronous, Byzantine-resilient FL algorithm that needs no server dataset, avoids stragglers, and outperforms prior methods in speed and accuracy under attacks." 
 summary: "We propose an asynchronous, Byzantine-resilient FL algorithm that avoids straggler delays and requires no server dataset. By updating after a safe number of client contributions, it outperforms state-of-the-art methods, achieving faster training and higher accuracy under multiple attack types."
 draft: false
@@ -16,7 +16,9 @@ cover:
 editPost:
     URL: "https://doi.org/10.48550/arXiv.2406.01438"
     Text: "Arxiv"
-
+buttons:
+    paper: https://arxiv.org/pdf/2406.01438
+    code: https://github.com/bacox/Catalyst
 ---
 
 ---

@@ -5,7 +5,7 @@ url: /paper/training-diffusion-models-with-federated-learning
 aliases: 
     - /old_url.html
 tags: ["Diffusion", "Federated Learning", "DDPM"]
-author: ["Matthijs de Goede , Bart Cox , Jérémie Decouchant"]
+author: ["Matthijs de Goede , Bart Cox , <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://sites.google.com/view/jdecouchant/accueil\">Jérémie Decouchant</a>"]
 description: "We propose a federated diffusion model enabling collaborative DDPM training without data sharing, reducing exchanged parameters by 74% while maintaining image quality." 
 summary: "We introduce a federated diffusion framework that allows independent, privacy-preserving training of DDPMs without exposing local data. By adapting FedAvg and leveraging the UNet backbone efficiently, our method cuts parameter exchange by up to 74% compared to naive FedAvg, while preserving image quality close to centralized training, as measured by FID."
 draft: false
@@ -16,7 +16,9 @@ cover:
 editPost:
     URL: "https://doi.org/10.48550/arXiv.2406.12575"
     Text: "Arxiv"
-
+buttons:
+    paper: https://arxiv.org/pdf/2406.12575
+    code: https://gitlab.ewi.tudelft.nl/dmls/publications/FedDiffuse
 ---
 
 ---

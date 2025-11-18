@@ -5,7 +5,7 @@ url: /paper/Nomad-Accelerating-Geo-distributed-Learning-with-Client-Transfers
 aliases: 
     - /old_url.html
 tags: ["Federated learning", "Multi-server", "Asynchronous learning", "Client churn", "Resource Heterogeneity", "Adaptability"]
-author: ["Bart Cox", "Lydia Y. Chen", "Jérémie Decouchant"]
+author: ["Bart Cox", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lydiaychen.com/\">Lydia Y. Chen</a>", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://sites.google.com/view/jdecouchant/accueil\">Jérémie Decouchant</a>"]
 description: "Nomad dynamically reassigns clients in multi-server FL to reduce latency and match data distributions, yielding large accuracy gains and outperforming strong baselines." 
 summary: "Nomad is the first dynamic client transfer framework for multi-server FL, reallocating clients based on network conditions and data alignment to reduce latency and improve learning. Unlike static assignments, Nomad enables flexible migration during training. Experiments show accuracy improvements of up to 31.8 points in join-only settings and 18.8 points under churn, consistently surpassing strong baselines and scaling well across geographic deployments."
 draft: false
@@ -16,7 +16,8 @@ cover:
 editPost:
     URL: "https://doi.org/paper_doi"
     Text: "IEEE Big Data"
-
+buttons:
+    code: https://github.com/bacox/Nomad
 ---
 
 ---

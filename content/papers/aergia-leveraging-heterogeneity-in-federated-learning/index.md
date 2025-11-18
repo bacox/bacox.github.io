@@ -5,7 +5,7 @@ url: /paper/aergia-leveraging-heterogeneity-in-federated-learning
 aliases: 
     - /old_url.html
 tags: ["Federated learning", "Task Offloading", "Stragglers"]
-author: ["Bart Cox","Lydia Y. Chen", "Jérémie Decouchant"]
+author: ["Bart Cox","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lydiaychen.com/\">Lydia Y. Chen</a>", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://sites.google.com/view/jdecouchant/accueil\">Jérémie Decouchant</a>"]
 description: "Paper description for search engines (less than 155 characters)" 
 summary: "To speed up the Federated Learning process, learning tasks can be offloaded to other clients. Using similarity metrics and a resource aware scheduler, we are able to speed up the training process for Federated Learning."
 draft: false
@@ -16,7 +16,8 @@ cover:
 editPost:
     URL: "https://www.sciencedirect.com/science/article/pii/S1574119222000372"
     Text: "Middleware 2022: Proceedings of the 23rd ACM/IFIP International Middleware Conference"
-
+buttons:
+    code: https://github.com/bacox/fltk
 ---
 
 ---
