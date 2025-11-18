@@ -41,3 +41,6 @@ public/
 
 # Backup Files
 .hugo_build.lock
+
+*_old.png
+*_old.jpg
