@@ -1,21 +1,21 @@
 ---
-title: "Paper Title (less than 70 characters)" 
-date: 2012-06-01
-url: /paper/
+title: "Asynchronous Byzantine Federated Learning" 
+date: 2024-06-20
+url: /paper/asynchronous-byzantine-federated-learning
 aliases: 
     - /old_url.html
-tags: ["keyword 1","keyword 2","keyword 3","keyword 4","keyword 5","keyword 6","keyword 7","keyword 8"]
-author: ["Paper Author 1", "Paper Author 2"]
-description: "Paper description for search engines (less than 155 characters)" 
-summary: "Paper summary for list page (less than 265 characters)"
-draft: true
+tags: ["Byzantine Learning", "Asynchronous Learning", "Re-source Heterogeneity"]
+author: ["Bart Cox", "Abele Mălan", "Lydia Y. Chen", "Jérémie Decouchant"]
+description: "An asynchronous, Byzantine-resilient FL algorithm that needs no server dataset, avoids stragglers, and outperforms prior methods in speed and accuracy under attacks." 
+summary: "We propose an asynchronous, Byzantine-resilient FL algorithm that avoids straggler delays and requires no server dataset. By updating after a safe number of client contributions, it outperforms state-of-the-art methods, achieving faster training and higher accuracy under multiple attack types."
+draft: false
 cover:
     image: "paper_figure.png"
-    alt: "Figure title (preferably 1280x720 pixels)"
+    alt: ""
     relative: true
 editPost:
-    URL: "https://doi.org/paper_doi"
-    Text: "Journal/Repository Name"
+    URL: "https://doi.org/10.48550/arXiv.2406.01438"
+    Text: "Arxiv"
 
 ---
 
@@ -23,42 +23,38 @@ editPost:
 
 ##### Links:
 
-- [Publication](paper.pdf)
-- [Paper](appendix.pdf)
-- [Code](https://github.com/paper_repo)
+- [Publication](https://arxiv.org/abs/2406.01438)
+- [Paper](https://arxiv.org/pdf/2406.01438)
+- [Code](https://github.com/bacox/Catalyst)
 
 ---
 
 ##### Abstract:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Federated learning (FL) enables a set of geographically distributed clients to collectively train a model through a server. Classically, the training process is synchronous, but can be made asynchronous to maintain its speed in presence of slow clients and in heterogeneous networks. The vast majority of Byzantine fault-tolerant FL systems however rely on a synchronous training process. Our solution is one of the first Byzantine-resilient and asynchronous FL algorithms that does not require an auxiliary server dataset and is not delayed by stragglers, which are shortcomings of previous works. Intuitively, the server in our solution waits to receive a minimum number of updates from clients on its latest model to safely update it, and is later able to safely leverage the updates that late clients might send. We compare the performance of our solution with state-of-the-art algorithms on both image and text datasets under gradient inversion, perturbation, and backdoor attacks. Our results indicate that our solution trains a model faster than previous synchronous FL solution, and maintains a higher accuracy, up to 1.54x and up to 1.75x for perturbation and gradient inversion attacks respectively, in the presence of Byzantine clients than previous asynchronous FL solutions. 
 
 ---
 
-##### Figure X:  Figure title
+<!-- ##### Figure X:  Figure title
 
-![](figurex.png)
+![](figurex.png) -->
 
 ---
 
 ##### Citation
 
-Author 1, Author 2. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
+Cox, B., Mălan, A., Chen, L. Y., & Decouchant, J. (2024). Asynchronous byzantine federated learning. arXiv preprint arXiv:2406.01438. https://doi.org/10.48550/arXiv.2406.01438.
 
 ```BibTeX
-@article{AAYY,
-author = {Author 1 and Author 2},
-doi = {paper_doi},
-journal = {Journal},
-number = {Issue},
-pages = {XXX--YYY},
-title = {Title},
-volume = {Volume},
-year = {Year}}
+@misc{cox2024asynchronousbyzantinefederatedlearning,
+      title={Asynchronous Byzantine Federated Learning}, 
+      author={Bart Cox and Abele Mălan and Lydia Y. Chen and Jérémie Decouchant},
+      year={2024},
+      eprint={2406.01438},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2406.01438}, 
+}
 ```
 
 ---
-
-##### Related material
-
-+ [Presentation slides](presentation.pdf)

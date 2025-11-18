@@ -58,7 +58,3 @@ year = {Year}}
 ```
 
 ---
-
-##### Related material
-
-+ [Presentation slides](presentation.pdf)

@@ -59,7 +59,3 @@ url = {https://www.sciencedirect.com/science/article/pii/S1574119222000372}
 ```
 
 ---
-
-##### Related material
-
-+ [Presentation slides](presentation.pdf)

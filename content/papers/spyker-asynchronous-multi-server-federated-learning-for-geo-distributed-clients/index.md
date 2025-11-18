@@ -1,21 +1,21 @@
 ---
-title: "Paper Title (less than 70 characters)" 
-date: 2012-06-01
-url: /paper/
+title: "Asynchronous Multi-Server Federated Learning for Geo-Distributed Clients" 
+date: 2024-12-02
+url: /paper/spyker-asynchronous-multi-server-federated-learning-for-geo-distributed-clients
 aliases: 
     - /old_url.html
-tags: ["keyword 1","keyword 2","keyword 3","keyword 4","keyword 5","keyword 6","keyword 7","keyword 8"]
-author: ["Paper Author 1", "Paper Author 2"]
-description: "Paper description for search engines (less than 155 characters)" 
-summary: "Paper summary for list page (less than 265 characters)"
-draft: true
+tags: ["Byzantine Learning", "Asynchronous Learning", "Resource Heterogeneity"]
+author: ["Yuncong Zuo", "Bart Cox", "Lydia Y. Chen", "Jérémie Decouchant"]
+description: "Spyker is a fully asynchronous multi-server FL system that removes server bottlenecks and idle time, keeping all nodes active and outperforming prior approaches." 
+summary: "Spyker is the first fully asynchronous multi-server FL system, eliminating server idle time and single-server bottlenecks. Clients communicate only with their nearest server, while servers also update each other asynchronously. This continuously active design improves scalability and performance across MNIST, CIFAR-10, and WikiText-2."
+draft: false
 cover:
-    image: "paper_figure.png"
-    alt: "Figure title (preferably 1280x720 pixels)"
+    image: "spyker.png"
+    alt: "Flat Multi-Server"
     relative: true
 editPost:
-    URL: "https://doi.org/paper_doi"
-    Text: "Journal/Repository Name"
+    URL: "https://doi.org/10.1145/3652892.3700778"
+    Text: "Middleware 20245: Proceedings of the 25rd ACM/IFIP International Middleware Conference"
 
 ---
 
@@ -23,42 +23,45 @@ editPost:
 
 ##### Links:
 
-- [Publication](paper.pdf)
-- [Paper](appendix.pdf)
-- [Code](https://github.com/paper_repo)
+- [Publication](https://doi.org/10.1145/3652892.3700778)
+- [Paper](https://dl.acm.org/doi/pdf/10.1145/3652892.3700778)
+- [Code](https://github.com/bacox/Morph)
 
 ---
 
 ##### Abstract:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Federated learning (FL) systems enable multiple clients to train a machine learning model iteratively through synchronously exchanging the intermediate model weights with a single server. The scalability of such FL systems can be limited by two factors: server idle time due to synchronous communication and the risk of a single server becoming the bottleneck. In this paper, we propose a new FL architecture, Spyker, the first multi-server FL system that is entirely asynchronous, and therefore addresses these two limitations simultaneously. Spyker keeps both servers and clients continuously active. As in previous multi-server methods, clients interact solely with their nearest server, ensuring efficient update integration into the model. Differently, however, servers also periodically update each other asynchronously, and never postpone interactions with clients. We compare Spyker to three representative baselines – FedAvg, FedAsync and HierFAVG – on the MNIST and CIFAR-10 image classification datasets and on the WikiText-2 language modeling dataset.
 
 ---
 
-##### Figure X:  Figure title
+##### Figure 2:  Flat Multi-Server
 
-![](figurex.png)
+![](spyker.png)
 
 ---
 
 ##### Citation
 
-Author 1, Author 2. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
+Zuo, Y., Cox, B., Chen, L. Y., & Decouchant, J. (2024, December). Spyker: Asynchronous multi-server federated learning for geo-distributed clients. In Proceedings of the 25th International Middleware Conference (pp. 367-378). https://doi.org/10.1145/3652892.3700778.
 
 ```BibTeX
-@article{AAYY,
-author = {Author 1 and Author 2},
-doi = {paper_doi},
-journal = {Journal},
-number = {Issue},
-pages = {XXX--YYY},
-title = {Title},
-volume = {Volume},
-year = {Year}}
+@inproceedings{10.1145/3652892.3700778,
+author = {Zuo, Yuncong and Cox, Bart and Chen, Lydia Y. and Decouchant, J\'{e}r\'{e}mie},
+title = {Spyker: Asynchronous Multi-Server Federated Learning for Geo-Distributed Clients},
+year = {2024},
+isbn = {9798400706233},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3652892.3700778},
+doi = {10.1145/3652892.3700778},
+booktitle = {Proceedings of the 25th International Middleware Conference},
+pages = {367–378},
+numpages = {12},
+keywords = {byzantine learning, asynchronous learning, resource heterogeneity},
+location = {Hong Kong, Hong Kong},
+series = {Middleware '24}
+}
 ```
 
 ---
-
-##### Related material
-
-+ [Presentation slides](presentation.pdf)
