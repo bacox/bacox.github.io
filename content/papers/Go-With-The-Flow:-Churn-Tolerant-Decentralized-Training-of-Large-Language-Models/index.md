@@ -1,21 +1,21 @@
 ---
-title: "Paper Title (less than 70 characters)" 
-date: 2012-06-01
-url: /paper/
+title: "Go With The Flow: Churn-Tolerant Decentralized Training of Large Language Models" 
+date: 2025-11-08
+url: /paper/Go-With-The-Flow:-Churn-Tolerant-Decentralized-Training-of-Large-Language-Models
 aliases: 
     - /old_url.html
-tags: ["keyword 1","keyword 2","keyword 3","keyword 4","keyword 5","keyword 6","keyword 7","keyword 8"]
-author: ["Paper Author 1", "Paper Author 2"]
-description: "Paper description for search engines (less than 155 characters)" 
-summary: "Paper summary for list page (less than 265 characters)"
-draft: true
+tags: ["Large Language Model", "Decentralized learning", "Crash-tolerance", "Flow optimization"]
+author: ["Nikolay Blagoev", "Bart Cox", "Jérémie Decouchant", "Lydia Y. Chen"]
+description: "GWTF is a crash-tolerant decentralized LLM training framework that handles churn and instability, optimizing microbatch routing and cutting training time by up to 45%." 
+summary: "GWTF is the first practical, crash-tolerant decentralized framework for collaboratively training LLMs on heterogeneous volunteer clients. It handles node churn and unstable networks through a novel decentralized flow algorithm that optimizes microbatch routing. Evaluations on GPT- and LLaMa-like models show that GWTF reduces training time by up to 45% in challenging, geographically distributed settings."
+draft: false
 cover:
-    image: "paper_figure.png"
-    alt: "Figure title (preferably 1280x720 pixels)"
+    image: "gwtf.png"
+    alt: "Crash-recovery during decentralized training of an LLM"
     relative: true
 editPost:
-    URL: "https://doi.org/paper_doi"
-    Text: "Journal/Repository Name"
+    URL: "https://doi.org/10.48550/arXiv.2509.21221"
+    Text: "IEEE Big Data"
 
 ---
 
@@ -23,38 +23,38 @@ editPost:
 
 ##### Links:
 
-- [Publication](paper.pdf)
-- [Paper](appendix.pdf)
+- [Publication](https://doi.org/10.48550/arXiv.2509.21221)
+- [Paper](https://arxiv.org/pdf/2509.21221)
 - [Code](https://github.com/paper_repo)
 
 ---
 
 ##### Abstract:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Motivated by the emergence of large language models (LLMs) and the importance of democratizing their training, we propose GWTF, the first crash tolerant practical decentralized training framework for LLMs. Differently from existing distributed and federated training frameworks, GWTF enables the efficient collaborative training of a LLM on heterogeneous clients that volunteer their resources. In addition, GWTF addresses node churn, i.e., clients joining or leaving the system at any time, and network instabilities, i.e., network links becoming unstable or unreliable. The core of GWTF is a novel decentralized flow algorithm that finds the most effective routing that maximizes the number of microbatches trained with the lowest possible delay. We extensively evaluate GWTF on GPT-like and LLaMa-like models and compare it against the prior art. Our results indicate that GWTF reduces the training time by up to 45% in realistic and challenging scenarios that involve heterogeneous client nodes distributed over 10 different geographic locations with a high node churn rate. 
 
 ---
 
-##### Figure X:  Figure title
+##### Figure 1:  Crash-recovery during decentralized training of an LLM
 
-![](figurex.png)
+![](gwtf.png)
 
 ---
 
 ##### Citation
 
-Author 1, Author 2. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
+Blagoev, N., Cox, B., Decouchant, J., & Chen, L. Y. (2025). Go With The Flow: Churn-Tolerant Decentralized Training of Large Language Models. arXiv preprint arXiv:2509.21221. https://doi.org/10.48550/arXiv.2509.21221.
 
 ```BibTeX
-@article{AAYY,
-author = {Author 1 and Author 2},
-doi = {paper_doi},
-journal = {Journal},
-number = {Issue},
-pages = {XXX--YYY},
-title = {Title},
-volume = {Volume},
-year = {Year}}
+@misc{blagoev2025flowchurntolerantdecentralizedtraining,
+      title={Go With The Flow: Churn-Tolerant Decentralized Training of Large Language Models}, 
+      author={Nikolay Blagoev and Bart Cox and Jérémie Decouchant and Lydia Y. Chen},
+      year={2025},
+      eprint={2509.21221},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2509.21221}, 
+}
 ```
 
 ---
