@@ -1,6 +1,6 @@
 ---
 title: "Accelerating Geo-distributed Learning with Client Transfers" 
-date: 2025-11-06
+date: 2025-12-09
 url: /paper/Nomad-Accelerating-Geo-distributed-Learning-with-Client-Transfers
 aliases: 
     - /old_url.html
@@ -9,14 +9,16 @@ author: ["Bart Cox", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"ht
 description: "Nomad dynamically reassigns clients in multi-server FL to reduce latency and match data distributions, yielding large accuracy gains and outperforming strong baselines." 
 summary: "Nomad is the first dynamic client transfer framework for multi-server FL, reallocating clients based on network conditions and data alignment to reduce latency and improve learning. Unlike static assignments, Nomad enables flexible migration during training. Experiments show accuracy improvements of up to 31.8 points in join-only settings and 18.8 points under churn, consistently surpassing strong baselines and scaling well across geographic deployments."
 draft: false
+venue: "IEEE NCA"
 cover:
     image: "nomad.png"
     alt: "Client transfers between servers"
     relative: true
 editPost:
     URL: "https://doi.org/paper_doi"
-    Text: "IEEE Big Data"
+    Text: "IEEE NCA"
 buttons:
+    paper: https://www.computer.org/csdl/proceedings-article/nca/2025/784200a001/2bZ8vdpa9Py
     code: https://github.com/bacox/Nomad
 ---
 
@@ -24,8 +26,8 @@ buttons:
 
 ##### Links:
 
-<!-- - [Publication](paper.pdf)
-- [Paper](appendix.pdf) -->
+- [Publication](https://www.computer.org/csdl/proceedings-article/nca/2025/784200a001/2bZ8vdpa9Py)
+<!-- - [Paper](appendix.pdf) --> 
 - [Code](https://github.com/bacox/Nomad)
 
 ---

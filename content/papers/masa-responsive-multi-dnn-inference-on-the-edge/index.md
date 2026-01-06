@@ -5,6 +5,7 @@ tags: ["DNN","Edge AI","Inference"]
 author: ["Bart Cox"]
 description: "This paper shows memory-aware scheduling of DNNS. Published in 2021 IEEE International Conference on Pervasive Computing and Communications (PerCom)." 
 summary: "Masa, a responsive memory-aware multi-DNN execution framework, an on-device middleware featuring on modeling inter- and intra-network dependency and leveraging complimentary memory usage of each layer." 
+venue: "IEEE PerCom"
 draft: false
 cover:
     image: "masa.png"

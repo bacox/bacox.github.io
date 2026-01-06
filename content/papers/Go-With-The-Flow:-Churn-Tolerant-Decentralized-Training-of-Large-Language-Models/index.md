@@ -1,6 +1,6 @@
 ---
 title: "Go With The Flow: Churn-Tolerant Decentralized Training of Large Language Models" 
-date: 2025-11-08
+date: 2025-12-09
 url: /paper/Go-With-The-Flow:-Churn-Tolerant-Decentralized-Training-of-Large-Language-Models
 aliases: 
     - /old_url.html
@@ -8,6 +8,7 @@ tags: ["Large Language Model", "Decentralized learning", "Crash-tolerance", "Flo
 author: ["Nikolay Blagoev", "Bart Cox", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://sites.google.com/view/jdecouchant/accueil\">Jérémie Decouchant</a>", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lydiaychen.com/\">Lydia Y. Chen</a>"]
 description: "GWTF is a crash-tolerant decentralized LLM training framework that handles churn and instability, optimizing microbatch routing and cutting training time by up to 45%." 
 summary: "GWTF is the first practical, crash-tolerant decentralized framework for collaboratively training LLMs on heterogeneous volunteer clients. It handles node churn and unstable networks through a novel decentralized flow algorithm that optimizes microbatch routing. Evaluations on GPT- and LLaMa-like models show that GWTF reduces training time by up to 45% in challenging, geographically distributed settings."
+venue: "IEEE Big Data"
 draft: false
 cover:
     image: "gwtf.png"

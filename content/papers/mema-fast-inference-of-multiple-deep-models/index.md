@@ -8,6 +8,7 @@ tags: ["Performance evaluation","Degradation","Pervasive computing","Schedules",
 author: ["Jeroen Galjaard","Bart Cox", "Amirmasoud Ghiassi", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lydiaychen.com/\">Lydia Y. Chen</a>","Robert Birke"]
 description: "MemA, a memory-aware scheduling policy, improves multi-inference DNN execution on edge devices by optimizing scheduling without increasing resource requirements." 
 summary: "The paper introduces EdgeCaffe, a framework for exploring scheduling policies in multi-inference DNN jobs on resource-constrained edge devices. It proposes MemA, a memory-aware policy that improves execution time by up to 5x without additional resources, based on layer-specific memory demands."
+venue: "IEEE PerCom"
 draft: false
 cover:
     image: "mema.png"

@@ -8,6 +8,7 @@ tags: ["keyword 1","keyword 2","keyword 3","keyword 4","keyword 5","keyword 6","
 author: ["Paper Author 1", "Paper Author 2"]
 description: "Paper description for search engines (less than 155 characters)" 
 summary: "Paper summary for list page (less than 265 characters)"
+venue: ""
 cover:
     image: "paper_figure.png"
     alt: "Figure title (preferably 1280x720 pixels)"

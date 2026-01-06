@@ -1,6 +1,6 @@
 ---
 title: "Asynchronous Byzantine Federated Learning" 
-date: 2024-06-20
+date: 2025-12-08
 url: /paper/asynchronous-byzantine-federated-learning
 aliases: 
     - /old_url.html
@@ -8,6 +8,7 @@ tags: ["Byzantine Learning", "Asynchronous Learning", "Re-source Heterogeneity"]
 author: ["Bart Cox", "Abele Mălan", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lydiaychen.com/\">Lydia Y. Chen</a>", "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://sites.google.com/view/jdecouchant/accueil\">Jérémie Decouchant</a>"]
 description: "An asynchronous, Byzantine-resilient FL algorithm that needs no server dataset, avoids stragglers, and outperforms prior methods in speed and accuracy under attacks." 
 summary: "We propose an asynchronous, Byzantine-resilient FL algorithm that avoids straggler delays and requires no server dataset. By updating after a safe number of client contributions, it outperforms state-of-the-art methods, achieving faster training and higher accuracy under multiple attack types."
+venue: "IEEE Big Data"
 draft: false
 cover:
     image: "paper_figure.png"

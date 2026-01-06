@@ -8,6 +8,7 @@ tags: ["Multiple DNNs inference","Average response time","Edge devices","Memory-
 author: ["Bart Cox", "Robert Birke", "Lydia Y Chen"]
 description: "Pervasive and Mobile Computing, 2022" 
 summary: "Masa is a memory-aware multi-DNN scheduling framework for edge devices that ensures low response times without modifying models. It leverages inter/intra-network dependencies and context to cut latency by up to 90% on low-memory devices."
+venue: "Pervasive and Mobile Computing"
 draft: false
 cover:
     image: "mema.jpg"

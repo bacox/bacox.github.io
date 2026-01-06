@@ -9,6 +9,7 @@ author: ["Bart Cox","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"htt
 description: "Paper description for search engines (less than 155 characters)" 
 summary: "To speed up the Federated Learning process, learning tasks can be offloaded to other clients. Using similarity metrics and a resource aware scheduler, we are able to speed up the training process for Federated Learning."
 draft: false
+venue: "ACM Middleware"
 cover:
     image: "aergia.png"
     alt: "Model training phases during a local training"
@@ -17,13 +18,14 @@ editPost:
     URL: "https://www.sciencedirect.com/science/article/pii/S1574119222000372"
     Text: "Middleware 2022: Proceedings of the 23rd ACM/IFIP International Middleware Conference"
 buttons:
+    paper: https://www.sciencedirect.com/science/article/pii/S1574119222000372
     code: https://github.com/bacox/fltk
 ---
 
 ---
 
 ##### Links:
-
+- [Paper](https://www.sciencedirect.com/science/article/pii/S1574119222000372)
 - [Code](https://github.com/bacox/fltk)
 
 ---

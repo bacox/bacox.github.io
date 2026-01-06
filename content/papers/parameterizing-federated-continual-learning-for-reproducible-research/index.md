@@ -1,6 +1,6 @@
 ---
 title: "Parameterizing federated continual learning for reproducible research" 
-date: 2025-01-01
+date: 2023-09-22
 url: /paper/parameterizing-federated-continual-learning-for-reproducible-research
 aliases: 
     - /old_url.html
@@ -9,6 +9,7 @@ author: ["Bart Cox", "Jeroen Galjaard", "Aditya Shankar", "<a target=\"_blank\" 
 description: "We present a fully configurable framework for Federated Continual Learning, enabling reproducible, large-scale experiments and revealing key performance challenges." 
 summary: "We present the first fully configurable framework for Federated Continual Learning, designed to reproduce complex, evolving learning scenarios. It supports large-scale deployments via containerization and Kubernetes, enabling precise experimentation. Demonstrations on CIFAR-100 and heterogeneous task sequences show Freddie’s effectiveness and uncover persistent performance challenges in real FCL settings."
 draft: false
+venue: "ECML PKDD"
 cover:
     image: "freddie.png"
     alt: "Reduced catastrophic forgetting effect (preferably 1280x720 pixels)"

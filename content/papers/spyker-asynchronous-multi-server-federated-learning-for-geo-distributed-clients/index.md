@@ -9,6 +9,7 @@ author: ["Yuncong Zuo", "Bart Cox", "<a target=\"_blank\" rel=\"noopener norefer
 description: "Spyker is a fully asynchronous multi-server FL system that removes server bottlenecks and idle time, keeping all nodes active and outperforming prior approaches." 
 summary: "Spyker is the first fully asynchronous multi-server FL system, eliminating server idle time and single-server bottlenecks. Clients communicate only with their nearest server, while servers also update each other asynchronously. This continuously active design improves scalability and performance across MNIST, CIFAR-10, and WikiText-2."
 draft: false
+venue: "ACM Middleware"
 cover:
     image: "spyker.png"
     alt: "Flat Multi-Server"

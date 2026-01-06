@@ -9,6 +9,7 @@ author: ["Rowdy Chotkan", "Bart Cox", "Vincent Rahli", "<a target=\"_blank\" rel
 description: "This work extends two classical reliable communication protocols to combine authenticated links and processes, introducing DualRC. It leverages trusted nodes (e.g., gateways) and components (e.g., Intel SGX) to improve communication reliability, with methods to validate network implementation." 
 summary: "This work extends two classical reliable communication protocols to combine authenticated links and processes, introducing DualRC. It leverages trusted nodes (e.g., gateways) and components (e.g., Intel SGX) to improve communication reliability, with methods to validate network implementation."
 draft: false
+venue: "OPODIS"
 cover:
     image: "dualrc.png"
     alt: "xample of a network where not forwarding signatures after delivering a message based on dissemination paths would prevent some nodes from authenticating it."

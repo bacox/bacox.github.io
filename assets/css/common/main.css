@@ -52,6 +52,11 @@
     color: var(--darkcolor);
 }
 
+.venue {
+    font-weight: bold;
+    /* margin-right: 10px; */
+}   
+
 code {
     direction: ltr;
 }
