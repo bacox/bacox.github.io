@@ -118,5 +118,7 @@ module:
   mounts:
     - source: assets/tin
       target: static/tin
+    - source: assets/fontus
+      target: static/fontus
     - source: static
       target: static
